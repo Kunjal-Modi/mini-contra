@@ -546,23 +546,7 @@
     {color:'#1a2d1a', speed: 0.4, shapes:[]},
     {color:'#225522', speed: 0.8, shapes:[]},
   ];
-
-  // Generate background shapes (simple trees)
-  function generateBgShapes(){
-    bgLayers.forEach(layer => {
-      layer.shapes = [];
-      for(let i=0; i<40; i++){
-        layer.shapes.push({
-          x: i*200 + Math.random()*100,
-          y: height - 40 - layer.speed * 200,
-          w: 20,
-          h: 60,
-          offsetY: Math.random()*20,
-        });
-      }
-    });
-  }
-
+  
   // Draw parallax background
   function drawBackground(){
     bgLayers.forEach(layer => {
