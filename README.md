@@ -59,4 +59,4 @@ Mini Contra is a retro-inspired, side-scrolling shooting and platforming game bu
 
 Feel free to fork, modify, or just enjoy playing!
 
-*Created by [Your Name]*
+*Created by Kunjal Modi*
