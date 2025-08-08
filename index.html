@@ -663,7 +663,6 @@
     platforms.forEach(p => p.scored = false);
     generatePlatforms();
     generateEnemies();
-    generateBgShapes();
     playerShots.length = 0;
     enemyShots.length = 0;
     powerUps.length = 0;
@@ -675,7 +674,6 @@
   // Initialize
   generatePlatforms();
   generateEnemies();
-  generateBgShapes();
   loop();
 
 })();
